@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shapes Matching Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>SHAPE-MATCH</h1> 
+    <div class="topTools">
+        <div class="time">
+            <span class="minute">00</span>
+            <span>:</span>
+            <span class="second">00</span>
+         </div>
+               
+        <span class="refresh"><img src="question.png" alt="refreshImage"></i></span>
+    </div> 
+
+<section class="memory-game">    
+    <div class="memory-card" data-id="1"> 
+        <img class="front-face" src="paralel.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="1">
+        <img class="front-face" src="paralel.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="2">
+        <img class="front-face" src="pentagon.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="2">
+        <img class="front-face" src="pentagon.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="3">
+        <img class="front-face" src="square.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="3">
+        <img class="front-face" src="square.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="4">
+        <img class="front-face" src="star.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="4">
+        <img class="front-face" src="star.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="5">
+        <img class="front-face" src="trapezoid.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="5">
+        <img class="front-face" src="trapezoid.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="6">
+        <img class="front-face" src="triangle.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="6">
+        <img class="front-face" src="triangle.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="7">
+        <img class="front-face" src="circle.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="7">
+        <img class="front-face" src="circle.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="8">
+        <img class="front-face" src="heart.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+    <div class="memory-card" data-id="8">
+        <img class="front-face" src="heart.png" alt="Front image">
+        <div class="back-face"><img src="question.png"></div>
+    </div>
+</section>
+
+
+<section id="congratsSection" class="hidden">   
+    <img id="confetti" src="confetti.png" alt="congratsImage">
+    <div id="congratsDiv">
+        <p class="final">
+            <span id="totalTime"></span>
+        </p>
+        <br>
+        <p>
+            <a class="again">Play Again !! </a>
+        </p>
+    </div>
+</section>
+
+<script src="main.js"></script>
+  </body>
+</html>
